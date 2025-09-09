@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_object_tracker</name>
+  <version>0.0.1</version>
+  <description>ROS2 computer vision based object tracker using OpenCV</description>
+  <maintainer email="you@example.com">Atharsh S</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
